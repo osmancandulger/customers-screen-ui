@@ -164,6 +164,30 @@ header .profile-container .profile {
   top: 75px;
   left: 63px;
   background-color: #f9faff;
+  -webkit-animation: show 0.95s ease;
+          animation: show 0.95s ease;
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+    margin-top: 25px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    margin-top: 25px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
 }
 
 .main .main-head-wrap {
