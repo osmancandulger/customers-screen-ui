@@ -378,11 +378,29 @@ header .profile-container .profile {
           box-shadow: 0px 2px 10px rgba(76, 141, 235, 0.10077);
 }
 
-.main .main-content .box .title {
+.main .main-content .box .row-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main .main-content .box .row-container .title {
   margin-top: 26px;
   margin-left: 18px;
   font-size: 16px;
   font-weight: 700;
+}
+
+.main .main-content .box .row-container .dropdown {
+  cursor: pointer;
+  margin-right: 18px;
 }
 
 .main .main-content .box .dollars-box {
