@@ -1,7 +1,7 @@
 
 # Customer Screen UI Development
 
-https://user-images.githubusercontent.com/59533680/105646212-c3ab4000-5eaf-11eb-899a-240d18539fb2.mov
+![customer-screen](https://user-images.githubusercontent.com/59533680/105646394-cb1f1900-5eb0-11eb-853c-fe86eae40d69.gif)
 
 #### It will be responsive in a couple of weeks :)
 ## See this project and more https://codepen.io/osmancandulger
